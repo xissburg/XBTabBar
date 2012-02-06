@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B47309114DF66DC00F17CD3 /* XBTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFA42314DF62F000C8C02B /* XBTabBarView.xib */; };
 		1BAFA40314DF5BEA00C8C02B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFA40214DF5BEA00C8C02B /* UIKit.framework */; };
 		1BAFA40514DF5BEA00C8C02B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFA40414DF5BEA00C8C02B /* Foundation.framework */; };
 		1BAFA40714DF5BEA00C8C02B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFA40614DF5BEA00C8C02B /* CoreGraphics.framework */; };
@@ -14,7 +15,7 @@
 		1BAFA40F14DF5BEA00C8C02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA40E14DF5BEA00C8C02B /* main.m */; };
 		1BAFA41314DF5BEA00C8C02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA41214DF5BEA00C8C02B /* AppDelegate.m */; };
 		1BAFA41614DF5BEA00C8C02B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFA41414DF5BEA00C8C02B /* MainStoryboard.storyboard */; };
-		1BAFA41914DF5BEA00C8C02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA41814DF5BEA00C8C02B /* ViewController.m */; };
+		1BAFA42214DF62D400C8C02B /* XBTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA42114DF62D400C8C02B /* XBTabBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		1BAFA40214DF5BEA00C8C02B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1BAFA40414DF5BEA00C8C02B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BAFA40614DF5BEA00C8C02B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1BAFA40A14DF5BEA00C8C02B /* XBTabBar-Info.plist */ = {isa = PBXFileReference; path = "XBTabBar-Info.plist"; sourceTree = "<group>"; };
+		1BAFA40A14DF5BEA00C8C02B /* XBTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBTabBar-Info.plist"; sourceTree = "<group>"; };
 		1BAFA40C14DF5BEA00C8C02B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BAFA40E14DF5BEA00C8C02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BAFA41014DF5BEA00C8C02B /* XBTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "XBTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		1BAFA41114DF5BEA00C8C02B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BAFA41014DF5BEA00C8C02B /* XBTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XBTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		1BAFA41114DF5BEA00C8C02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BAFA41214DF5BEA00C8C02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1BAFA41514DF5BEA00C8C02B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1BAFA41714DF5BEA00C8C02B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		1BAFA41814DF5BEA00C8C02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BAFA42014DF62D400C8C02B /* XBTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBTabBarView.h; path = TabBar/XBTabBarView.h; sourceTree = "<group>"; };
+		1BAFA42114DF62D400C8C02B /* XBTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBTabBarView.m; path = TabBar/XBTabBarView.m; sourceTree = "<group>"; };
+		1BAFA42314DF62F000C8C02B /* XBTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XBTabBarView.xib; path = TabBar/XBTabBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		1BAFA40814DF5BEA00C8C02B /* XBTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				1BAFA41F14DF62AE00C8C02B /* TabBar */,
 				1BAFA41114DF5BEA00C8C02B /* AppDelegate.h */,
 				1BAFA41214DF5BEA00C8C02B /* AppDelegate.m */,
 				1BAFA41414DF5BEA00C8C02B /* MainStoryboard.storyboard */,
-				1BAFA41714DF5BEA00C8C02B /* ViewController.h */,
-				1BAFA41814DF5BEA00C8C02B /* ViewController.m */,
 				1BAFA40914DF5BEA00C8C02B /* Supporting Files */,
 			);
 			path = XBTabBar;
@@ -96,6 +97,16 @@
 				1BAFA41014DF5BEA00C8C02B /* XBTabBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BAFA41F14DF62AE00C8C02B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFA42014DF62D400C8C02B /* XBTabBarView.h */,
+				1BAFA42114DF62D400C8C02B /* XBTabBarView.m */,
+				1BAFA42314DF62F000C8C02B /* XBTabBarView.xib */,
+			);
+			name = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B47309114DF66DC00F17CD3 /* XBTabBarView.xib in Resources */,
 				1BAFA40D14DF5BEA00C8C02B /* InfoPlist.strings in Resources */,
 				1BAFA41614DF5BEA00C8C02B /* MainStoryboard.storyboard in Resources */,
 			);
@@ -162,7 +174,7 @@
 			files = (
 				1BAFA40F14DF5BEA00C8C02B /* main.m in Sources */,
 				1BAFA41314DF5BEA00C8C02B /* AppDelegate.m in Sources */,
-				1BAFA41914DF5BEA00C8C02B /* ViewController.m in Sources */,
+				1BAFA42214DF62D400C8C02B /* XBTabBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +286,7 @@
 				1BAFA41E14DF5BEA00C8C02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
