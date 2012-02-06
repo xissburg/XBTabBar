@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BAFA40314DF5BEA00C8C02B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFA40214DF5BEA00C8C02B /* UIKit.framework */; };
+		1BAFA40514DF5BEA00C8C02B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFA40414DF5BEA00C8C02B /* Foundation.framework */; };
+		1BAFA40714DF5BEA00C8C02B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAFA40614DF5BEA00C8C02B /* CoreGraphics.framework */; };
+		1BAFA40D14DF5BEA00C8C02B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFA40B14DF5BEA00C8C02B /* InfoPlist.strings */; };
+		1BAFA40F14DF5BEA00C8C02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA40E14DF5BEA00C8C02B /* main.m */; };
+		1BAFA41314DF5BEA00C8C02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA41214DF5BEA00C8C02B /* AppDelegate.m */; };
+		1BAFA41614DF5BEA00C8C02B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAFA41414DF5BEA00C8C02B /* MainStoryboard.storyboard */; };
+		1BAFA41914DF5BEA00C8C02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFA41814DF5BEA00C8C02B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BAFA3FE14DF5BEA00C8C02B /* XBTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAFA40214DF5BEA00C8C02B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BAFA40414DF5BEA00C8C02B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BAFA40614DF5BEA00C8C02B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BAFA40A14DF5BEA00C8C02B /* XBTabBar-Info.plist */ = {isa = PBXFileReference; path = "XBTabBar-Info.plist"; sourceTree = "<group>"; };
+		1BAFA40C14DF5BEA00C8C02B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BAFA40E14DF5BEA00C8C02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BAFA41014DF5BEA00C8C02B /* XBTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "XBTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		1BAFA41114DF5BEA00C8C02B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BAFA41214DF5BEA00C8C02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BAFA41514DF5BEA00C8C02B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1BAFA41714DF5BEA00C8C02B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1BAFA41814DF5BEA00C8C02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BAFA3FB14DF5BEA00C8C02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFA40314DF5BEA00C8C02B /* UIKit.framework in Frameworks */,
+				1BAFA40514DF5BEA00C8C02B /* Foundation.framework in Frameworks */,
+				1BAFA40714DF5BEA00C8C02B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BAFA3F314DF5BEA00C8C02B = {
+			isa = PBXGroup;
+			children = (
+				1BAFA40814DF5BEA00C8C02B /* XBTabBar */,
+				1BAFA40114DF5BEA00C8C02B /* Frameworks */,
+				1BAFA3FF14DF5BEA00C8C02B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BAFA3FF14DF5BEA00C8C02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFA3FE14DF5BEA00C8C02B /* XBTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAFA40114DF5BEA00C8C02B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFA40214DF5BEA00C8C02B /* UIKit.framework */,
+				1BAFA40414DF5BEA00C8C02B /* Foundation.framework */,
+				1BAFA40614DF5BEA00C8C02B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BAFA40814DF5BEA00C8C02B /* XBTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFA41114DF5BEA00C8C02B /* AppDelegate.h */,
+				1BAFA41214DF5BEA00C8C02B /* AppDelegate.m */,
+				1BAFA41414DF5BEA00C8C02B /* MainStoryboard.storyboard */,
+				1BAFA41714DF5BEA00C8C02B /* ViewController.h */,
+				1BAFA41814DF5BEA00C8C02B /* ViewController.m */,
+				1BAFA40914DF5BEA00C8C02B /* Supporting Files */,
+			);
+			path = XBTabBar;
+			sourceTree = "<group>";
+		};
+		1BAFA40914DF5BEA00C8C02B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAFA40A14DF5BEA00C8C02B /* XBTabBar-Info.plist */,
+				1BAFA40B14DF5BEA00C8C02B /* InfoPlist.strings */,
+				1BAFA40E14DF5BEA00C8C02B /* main.m */,
+				1BAFA41014DF5BEA00C8C02B /* XBTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BAFA3FD14DF5BEA00C8C02B /* XBTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAFA41C14DF5BEA00C8C02B /* Build configuration list for PBXNativeTarget "XBTabBar" */;
+			buildPhases = (
+				1BAFA3FA14DF5BEA00C8C02B /* Sources */,
+				1BAFA3FB14DF5BEA00C8C02B /* Frameworks */,
+				1BAFA3FC14DF5BEA00C8C02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBTabBar;
+			productName = XBTabBar;
+			productReference = 1BAFA3FE14DF5BEA00C8C02B /* XBTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BAFA3F514DF5BEA00C8C02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1BAFA3F814DF5BEA00C8C02B /* Build configuration list for PBXProject "XBTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BAFA3F314DF5BEA00C8C02B;
+			productRefGroup = 1BAFA3FF14DF5BEA00C8C02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BAFA3FD14DF5BEA00C8C02B /* XBTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BAFA3FC14DF5BEA00C8C02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFA40D14DF5BEA00C8C02B /* InfoPlist.strings in Resources */,
+				1BAFA41614DF5BEA00C8C02B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BAFA3FA14DF5BEA00C8C02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAFA40F14DF5BEA00C8C02B /* main.m in Sources */,
+				1BAFA41314DF5BEA00C8C02B /* AppDelegate.m in Sources */,
+				1BAFA41914DF5BEA00C8C02B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BAFA40B14DF5BEA00C8C02B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAFA40C14DF5BEA00C8C02B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BAFA41414DF5BEA00C8C02B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAFA41514DF5BEA00C8C02B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BAFA41A14DF5BEA00C8C02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BAFA41B14DF5BEA00C8C02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BAFA41D14DF5BEA00C8C02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBTabBar/XBTabBar-Prefix.pch";
+				INFOPLIST_FILE = "XBTabBar/XBTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BAFA41E14DF5BEA00C8C02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBTabBar/XBTabBar-Prefix.pch";
+				INFOPLIST_FILE = "XBTabBar/XBTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BAFA3F814DF5BEA00C8C02B /* Build configuration list for PBXProject "XBTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAFA41A14DF5BEA00C8C02B /* Debug */,
+				1BAFA41B14DF5BEA00C8C02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAFA41C14DF5BEA00C8C02B /* Build configuration list for PBXNativeTarget "XBTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAFA41D14DF5BEA00C8C02B /* Debug */,
+				1BAFA41E14DF5BEA00C8C02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BAFA3F514DF5BEA00C8C02B /* Project object */;
+}
